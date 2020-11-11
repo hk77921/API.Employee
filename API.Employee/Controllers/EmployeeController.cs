@@ -20,16 +20,6 @@ namespace API.Employee.Controllers
             _employeeRepository = employeeRepository;
             _temporaryEmployee = temporaryEmployee;
         }
-       [HttpGet("AllEmployee")]
-        public IActionResult GetEmployeeList()
-        {
-           // var allEmployee = _employeeRepository.GetEmployees().Concat(_temporaryEmployee.GetEmployees())
-               
-              
-            return Ok();
-
-        }
-
 
         // GET: api/<EmployeeController>
        [HttpGet("Permament")]

@@ -37,7 +37,7 @@ namespace API.Employee
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version ="V1",
-                    Title ="Employe API",
+                    Title ="Employee API",
                 }
                     );
             });
